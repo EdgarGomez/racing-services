@@ -1,0 +1,16 @@
+div::-webkit-scrollbar {
+    display: none;
+}
+div {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+textarea:focus, input:focus, button:focus{
+    outline: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+button {
+    text-decoration: none !important;
+}

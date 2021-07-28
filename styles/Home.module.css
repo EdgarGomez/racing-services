@@ -1,0 +1,19 @@
+.tableTitle th,
+.tableBold {
+    color:black; 
+    font-family: 'Lato Bold';
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 8px 5px;
+}
+
+.tableContent td {
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .tableTitle th,
+    .tableBold {
+        font-size: 1rem;
+    }
+}
